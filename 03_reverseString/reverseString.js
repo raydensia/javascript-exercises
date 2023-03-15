@@ -1,15 +1,25 @@
 const reverseString = function(string) {
-    return string.split("").reverse().join("");
-
-    // let reversedString = [];
-    // let length = string.length - 1;
-    // string = string.split("");
-
-    // for (let i = length; i >= 0; i--) {
-    //     reversedString.push(string[i]);
+    // let word;
+    // string = string.split(" ");
+    // string = string.reverse();
+    // for (let i = 0; i < string.length; i++) {
+    //     word = string[i];
+    //     word = word.split("").reverse().join("");
+    //     string[i] = word;
     // }
+    // string = string.join(" ");
+    
+    return string.split("").reverse.join;
 
-    // return reversedString.join("");
+    let reversedString = [];
+    let length = string.length - 1;
+    string = string.split("");
+
+    for (let i = length; i >= 0; i--) {
+        reversedString.push(string[i]);
+    }
+
+    return reversedString.join("");
 };
 
 // Do not edit below this line
